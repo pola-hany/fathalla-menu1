@@ -1,79 +1,72 @@
 <footer class="site-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <!-- معلومات المطعم -->
-      <div class="footer-info">
-        <div class="footer-logo">
-          <img src="https://i.ibb.co/5Wk2J9wL/x.jpg" alt="فتح الله" class="footer-logo-img">
-          <h3>فتح الله</h3>
-        </div>
-        <p class="footer-description">
-          نقدم أشهى المأكولات والمشروبات بأعلى معايير الجودة والنظافة، 
-          في جو عائلي مميز منذ 1990
-        </p>
+  <div class="footer-grid">
+    <!-- معلومات المطعم -->
+    <div class="footer-info">
+      <div class="footer-logo">
+        <img src="https://i.ibb.co/5Wk2J9wL/x.jpg" alt="فتح الله" class="footer-logo-img">
+        <h3>فتح الله</h3>
       </div>
-
-      <!-- روابط سريعة -->
-      <div class="footer-links">
-        <h4>روابط سريعة</h4>
-        <ul>
-          <li><a href="#hot">مشروبات ساخنة</a></li>
-          <li><a href="#ice">مشروبات مثلجة</a></li>
-          <li><a href="#pizza">البيتزا</a></li>
-          <li><a href="#fatir">الفطير</a></li>
-          <li><a href="#meals">الوجبات</a></li>
-          <li><a href="#pasta">المكرونة</a></li>
-          <li><a href="#offers">العروض</a></li>
-        </ul>
-      </div>
-
-      <!-- روابط التواصل الاجتماعي مع أيقونات CSS احترافية -->
-      <div class="footer-social">
-        <h4>تواصل معنا</h4>
-        <div class="social-icons-wrapper">
-          <!-- فيسبوك -->
-          <a href="https://www.facebook.com/fathallacairomarket" 
-             target="_blank" 
-             rel="noopener noreferrer" 
-             class="social-icon facebook"
-             aria-label="تابعنا على فيسبوك">
-            <i class="fab fa-facebook-f"></i>
-            <span class="social-tooltip">فيسبوك</span>
-          </a>
-
-          <!-- انستجرام -->
-          <a href="https://www.instagram.com/fathalla.cairo?fbclid=IwY2xjawQJQ4RleHRuA2FlbQIxMABicmlkETJyUDBIeElleFJJNFF5WjVOc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHhTVRP7qJPGUG1T_EAGIOxnbYdJ920FVy95FZp-BRAODCpUT7powEtgttC_qLk3nLtsLlJqOpKMc_O3xQlSptnw" 
-             target="_blank" 
-             rel="noopener noreferrer" 
-             class="social-icon instagram"
-             aria-label="شاهد صورنا على انستجرام">
-            <i class="fab fa-instagram"></i>
-            <span class="social-tooltip">انستجرام</span>
-          </a>
-
-
-          <!-- واتساب (رابط واتساب مباشر) -->
-          <a href="https://wa.me/201555715260?text=مرحباً،%20أود%20الاستفسار%20عن%20المنتجات" 
-             target="_blank" 
-             rel="noopener noreferrer" 
-             class="social-icon whatsapp"
-             aria-label="تواصل معنا عبر واتساب">
-            <i class="fab fa-whatsapp"></i>
-            <span class="social-tooltip">واتساب</span>
-          </a>
-        </div>
-        
-        <!-- معلومات الاتصال الإضافية -->
-        <div class="contact-info">
-          <p><i class="fas fa-phone"></i>☎️ Hotline:15260</p>
-          <p><i class="fas fa-map-marker-alt"></i> القاهرة الجديدة، الرحاب</p>
-        </div>
-      </div>
+      <p class="footer-description">
+        نقدم أشهى المأكولات والمشروبات بأعلى معايير الجودة والنظافة
+      </p>
     </div>
 
-    <!-- حقوق النشر -->
-    <div class="footer-bottom">
-      <p>© 2025 فتح الله - جميع الحقوق محفوظة. تصميم وتطوير بأيادٍ مصرية</p>
+    <!-- روابط سريعة -->
+    <div class="footer-links">
+      <h4>روابط سريعة</h4>
+      <ul>
+        <li><a href="#hot" onclick="document.querySelector('[data-category=hot]').click()">مشروبات ساخنة</a></li>
+        <li><a href="#ice" onclick="document.querySelector('[data-category=ice]').click()">مشروبات مثلجة</a></li>
+        <li><a href="#pizza" onclick="document.querySelector('[data-category=pizza]').click()">البيتزا</a></li>
+        <li><a href="#fatir" onclick="document.querySelector('[data-category=fatir]').click()">الفطير</a></li>
+        <li><a href="#meals" onclick="document.querySelector('[data-category=meals]').click()">الوجبات</a></li>
+        <li><a href="#pasta" onclick="document.querySelector('[data-category=pasta]').click()">المكرونة</a></li>
+        <li><a href="#offers" onclick="document.querySelector('[data-category=offers]').click()">العروض</a></li>
+      </ul>
     </div>
+
+    <!-- روابط التواصل الاجتماعي -->
+    <div class="footer-social">
+      <h4>تواصل معنا</h4>
+      <div class="social-icons-wrapper">
+        <!-- فيسبوك -->
+        <a href="https://www.facebook.com/fathallacairomarket" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="social-icon facebook"
+           aria-label="تابعنا على فيسبوك">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <!-- انستجرام -->
+        <a href="https://www.instagram.com/fathalla.cairo?fbclid=IwY2xjawQJQ4RleHRuA2FlbQIxMABicmlkETJyUDBIeElleFJJNFF5WjVOc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHhTVRP7qJPGUG1T_EAGIOxnbYdJ920FVy95FZp-BRAODCpUT7powEtgttC_qLk3nLtsLlJqOpKMc_O3xQlSptnw" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="social-icon instagram"
+           aria-label="شاهد صورنا على انستجرام">
+          <i class="fab fa-instagram"></i>
+        </a>
+
+        <!-- واتساب -->
+        <a href="https://wa.me/201555715260?text=مرحباً%20أود%20الاستفسار%20عن%20المنتجات" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="social-icon whatsapp"
+           aria-label="تواصل معنا عبر واتساب">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+      
+      <!-- معلومات الاتصال -->
+      <div class="contact-info">
+        <p><i class="fas fa-phone"></i>Hotline:15260</p>
+        <p><i class="fas fa-map-marker-alt"></i> القاهرة الجديدة، الرحاب</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- حقوق النشر -->
+  <div class="footer-bottom">
+    <p>© 2025 فتح الله - جميع الحقوق محفوظة</p>
   </div>
 </footer>
