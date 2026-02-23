@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "وجبة كفتة",
+    "description": "كفتة مشوية على الفحم مع أرز ومتبلات، تقدم مع سلطة وخبز بلدي",
+    "price": 75,
+    "image": "https://images.unsplash.com/photo-1603360946369-d3c62097f307?w=400&h=400&fit=crop"
+  },
+  {
+    "id": 2,
+    "name": "دجاج مشوي",
+    "description": "نصف دجاجة مشوية بتتبيلة خاصة، تقدم مع بطاطس مقلية وسلطة",
+    "price": 95,
+    "image": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=400&h=400&fit=crop"
+  },
+  {
+    "id": 3,
+    "name": "شيش طاووق",
+    "description": "أسياخ دجاج متبلة مع خضار مشوي، تقدم مع أرز وخضار سوتيه",
+    "price": 85,
+    "image": "https://images.unsplash.com/photo-1603360946369-d3c62097f307?w=400&h=400&fit=crop"
+  }
+]

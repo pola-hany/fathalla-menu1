@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "فطير جبنة",
+    "description": "فطير رقائق محشي بخليط الجبن الأبيض والرومي، يقدم ساخناً مع عسل",
+    "price": 35,
+    "image": "https://images.unsplash.com/photo-1604904612715-47bf9d9bc670?w=400&h=400&fit=crop"
+  },
+  {
+    "id": 2,
+    "name": "فطير لحمة",
+    "description": "فطير محشي بلحم مفروم مع بصل وفلفل وتوابل شرقية أصلية",
+    "price": 55,
+    "image": "https://images.unsplash.com/photo-1604904612715-47bf9d9bc670?w=400&h=400&fit=crop"
+  },
+  {
+    "id": 3,
+    "name": "فطير سكر وقشطة",
+    "description": "فطير حلو محشو بالقشطة البلدي ويقدم مع سكر بودرة ومكسرات",
+    "price": 40,
+    "image": "https://images.unsplash.com/photo-1604904612715-47bf9d9bc670?w=400&h=400&fit=crop"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "باستا ألفريدو",
+    "description": "باستا فيتوتشيني مع صوص ألفريدو كريمي وجبن بارميزان مبشور",
+    "price": 60,
+    "image": "https://images.unsplash.com/photo-1645112411342-4665e1c0c3c6?w=400&h=400&fit=crop"
+  },
+  {
+    "id": 2,
+    "name": "باستا بولونيز",
+    "description": "باستا سباغيتي مع صوص لحم بقري وطماطم وأعشاب إيطالية",
+    "price": 62,
+    "image": "https://images.unsplash.com/photo-1622973536968-3ead9e780960?w=400&h=400&fit=crop"
+  },
+  {
+    "id": 3,
+    "name": "باستا بيني",
+    "description": "معكرونة بيني مع صوص الطماطم الحارة وقطع الدجاج والمشروم",
+    "price": 65,
+    "image": "https://images.unsplash.com/photo-1645112411342-4665e1c0c3c6?w=400&h=400&fit=crop"
+  }
+]

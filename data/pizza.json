@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "بيتزا مارجريتا",
+    "description": "صلصة طماطم طازجة، جبن موزاريلا، ريحان أخضر وزيت زيتون إيطالي",
+    "price": 65,
+    "image": "https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?w=400&h=400&fit=crop"
+  },
+  {
+    "id": 2,
+    "name": "بيتزا بيبروني",
+    "description": "صلصة حارة، بيبروني مدخن، جبن موزاريلا وفلفل حلو ملون",
+    "price": 85,
+    "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=400&h=400&fit=crop"
+  },
+  {
+    "id": 3,
+    "name": "بيتزا خضار",
+    "description": "فلفل ألوان، مشروم، زيتون أسود، بصل وذرة مع صوص الطماطم",
+    "price": 70,
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&h=400&fit=crop"
+  }
+]

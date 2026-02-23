@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>فتح الله - قائمة الطعام</title>
+  
+  <!-- Font Awesome 6 (مجاني) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+  <!-- ملف التنسيقات الرئيسي -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- يتم تحميل الهيدر عبر JavaScript -->
+  <div id="header-container"></div>
+
+  <!-- شريط العروض المميزة -->
+  <section class="offers-strip" id="offersStrip">
+    <div class="container">
+      <div class="offers-slider-container">
+        <div class="offers-track" id="offersTrack">
+          <!-- يتم ملؤها عبر offers.js -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- المحتوى الرئيسي -->
+  <main class="main-content">
+    <div class="container">
+      <!-- أزرار التصفية -->
+      <div class="filter-section">
+        <div class="filter-tabs" id="filterTabs">
+          <!-- يتم ملؤها عبر products.js -->
+        </div>
+        
+        <!-- مربع البحث -->
+        <div class="search-wrapper">
+          <i class="fas fa-search"></i>
+          <input type="text" id="searchInput" placeholder="ابحث عن منتج..." autocomplete="off">
+        </div>
+      </div>
+
+      <!-- شبكة المنتجات -->
+      <div id="productsContainer" class="products-grid">
+        <!-- يتم ملؤها عبر render.js -->
+      </div>
+    </div>
+  </main>
+
+  <!-- يتم تحميل الفوتر عبر JavaScript -->
+  <div id="footer-container"></div>
+
+  <!-- ملفات JavaScript -->
+  <script src="js/products.js"></script>
+  <script src="js/render.js"></script>
+  <script src="js/filter.js"></script>
+  <script src="js/offers.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "عرض القهوة المزدوج",
+    "description": "2 قهوة تركية + 2 قطعة حلوة + مياه معدنية",
+    "price": 75,
+    "image": "https://images.unsplash.com/photo-1459755486867-b55449bb39ff?w=400&h=400&fit=crop"
+  },
+  {
+    "id": 2,
+    "name": "عرض البيتزا الكبير",
+    "description": "2 بيتزا وسط + مشروب غازي + بطاطس ودجز + صوصات",
+    "price": 160,
+    "image": "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?w=400&h=400&fit=crop"
+  },
+  {
+    "id": 3,
+    "name": "عرض العائلة",
+    "description": "فطير لحمة + فطير جبنة + 4 مشروبات + سلطة مشكلة",
+    "price": 200,
+    "image": "https://images.unsplash.com/photo-1604904612715-47bf9d9bc670?w=400&h=400&fit=crop"
+  }
+]

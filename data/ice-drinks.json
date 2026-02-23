@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "ميلك شيك شوكولاتة",
+    "description": "ميلك شيك كثيف بنكهة الشوكولاتة البلجيكية مع كريمة مخفوقة وقطع شوكولاتة",
+    "price": 45,
+    "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=400&h=400&fit=crop"
+  },
+  {
+    "id": 2,
+    "name": "ليمون نعناع",
+    "description": "عصير ليمون طازج مع نعناع أخضر وثلج مجروش، منعش طبيعي 100%",
+    "price": 20,
+    "image": "https://images.unsplash.com/photo-1621263764928-df1444c5e859?w=400&h=400&fit=crop"
+  },
+  {
+    "id": 3,
+    "name": "موهيتو فراولة",
+    "description": "موهيتو غير كحولي بنكهة الفراولة الطازجة مع نعناع وليمون",
+    "price": 28,
+    "image": "https://images.unsplash.com/photo-1551024702-8b8ddc5874cc?w=400&h=400&fit=crop"
+  }
+]
